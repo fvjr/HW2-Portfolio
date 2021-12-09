@@ -25,6 +25,8 @@ body {
     border-style:double;
     border-top-left-radius:100px;
     border-top-right-radius:100px;
+    min-height:150px;
+    margin-bottom:auto;
 }
 
 .header h1 {
@@ -90,12 +92,23 @@ body {
     background-color:rgb(222, 217, 196);
 }
 
+/* .about-me-section {
+    height: 100%;
+    width: 400px;
+    font-size:36px;
+    background-color: #06262c;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+} */
+
 .about-me-section h3, p {
-    text-align: center;
-    flex: auto;
 
 }
-
 
 .avatar-img {
     display: block;
@@ -106,10 +119,55 @@ body {
     border-radius: 150px;
 }
 
+.my-work {
+    text-align: center;
+}
+
+.work 
+{
+    /* flex:4; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:flex-end;
+    padding:10px 10px 10px 10px;
+    text-align: center;
+}
+
+.work-cards {
+    border-style:solid;
+    border-width: 5px;
+    padding: 10px;
+    box-shadow:10px 10px 10px 10px #06262c;
+    margin:35px;
+    border-radius: 95px;
+    flex:auto;
+    height: 400px;
+    width: 400px;
+   
+}
+
+.work-cards header {
+    border-radius:
+
+}
+
+.work-cards p {
+    text-align: center;
+}
+
+.work-cards img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 85px; 
+    max-height: 375px;
+    max-width: 375px;
+}
+
 .footer {
     position: relative;
     width: 100%;
-    min-height: 300px;
+    min-height: 150px;
     background-color: rgb(137, 181, 175);
     text-align: center;
     justify-content: center;
@@ -118,6 +176,7 @@ body {
     border-style: double;
     border-color:rgb(208, 202, 178);
     font-size: 20px;
+    margin-top: auto;
     
 }
 .footer h4 {
