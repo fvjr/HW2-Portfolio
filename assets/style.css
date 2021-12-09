@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+
 }
 
 #name{
@@ -122,9 +123,9 @@ text-align: center;
 
 }
 
-.my-work {
+/* .my-work {
     text-align: center;
-}
+} */
 
 .work-primary
 {
@@ -309,15 +310,15 @@ text-align: center;
     padding-right: 50px;
 }
 
-@media screen and (max-width: 992px) {
-    .card {
+/* @media screen and (max-width: 992px) {
+    * {
       width: 25%;
     }
   }
   
   @media screen and (max-width: 768px) {
-    .card {
+    * {
        width: 50%;
     }
   }
-  
+   */
