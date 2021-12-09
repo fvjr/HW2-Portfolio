@@ -9,6 +9,8 @@ This page gave me practice on using HTML and CSS to design a webpage and gives m
 #Usage
 To view my page, simply click the attached link and you'll be able to see the deployed project.
 
+https://fvjr.github.io/HW2-Portfolio/
+
  #Contributing 
  To access the code, acess my GitHub repo titled "HW2-Portfolio". My GitHub is linked on the page. If you have any ideas of how to simplify or improve some code, please feel free to reach out! I'll be working on the page as I have time to improve it. 
 
