@@ -23,8 +23,8 @@ body {
     border:15px;
     border-color: rgb(222, 217, 196);
     border-style:double;
-    border-top-left-radius:100px;
-    border-top-right-radius:100px;
+    /* border-top-left-radius:100px;
+    border-top-right-radius:100px; */
     min-height:150px;
     margin-bottom:auto;
 }
@@ -81,10 +81,9 @@ body {
 .hero {
     position: relative;
     height: 300px;
-    margin-left: 8px;
-    width:99%;
-    border-bottom-left-radius:100px;
-    border-bottom-right-radius:100px;
+    width:100%;
+    /* border-bottom-left-radius:100px;
+    border-bottom-right-radius:100px; */
     margin-bottom: 25px;
     background-image:url("./images/hero.jpg");
     background-size:cover;
@@ -125,9 +124,9 @@ body {
 
 .work 
 {
-    /* flex:4; */
+    flex:auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-evenly;
     align-items:flex-end;
     padding:10px 10px 10px 10px;
@@ -137,19 +136,25 @@ body {
 .work-cards {
     border-style:solid;
     border-width: 5px;
-    padding: 10px;
+    padding:10px;
     box-shadow:10px 10px 10px 10px #06262c;
-    margin:35px;
-    border-radius: 95px;
-    flex:auto;
-    height: 400px;
+    margin:20px 20px 20px 20px;
+    border-radius: 45px;
+    flex-wrap: wrap;
+    height: 250px;
     width: 400px;
+    text-align: center;
    
 }
 
 .work-cards header {
-    border-radius:
-
+    background-color:rgb(208, 202, 178);
+    color: red;
+    width: 75px;
+    margin-left: 140px;
+    flex: auto;
+    padding: 0;
+    text-align: center;
 }
 
 .work-cards p {
@@ -157,11 +162,13 @@ body {
 }
 
 .work-cards img {
-    width: 100%;
+    width: 450px;
+    height: 250px;
     padding: 10px;
-    border-radius: 85px; 
-    max-height: 375px;
-    max-width: 375px;
+    border-radius: 30px; 
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 
 .footer {
@@ -188,3 +195,11 @@ body {
     text-decoration: underline;
     padding: 10px;
 }
+
+/* @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+   */
